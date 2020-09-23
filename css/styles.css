@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+.tamaño{
+    width: 0px;
+    height: 0px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-top: 100px;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 22px;
+    color: #999999;
+    line-height: 1.8;
+    /*margin-bottom: 0;*/
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a ion-icon{
+    font-size: 30px;
+    color: white !important;
+}
+section{
+    padding: 110px 0;
+}
+
+.bg-light-grey{
+    background-color: #f5f5f5;
+}
+
+.bg-dark{
+    background-color: #1a1a1a !important;
+}
+
+.bottonmargin-md{
+    padding-bottom: 20px;
+}
+
+.topmargin-xl{
+    margin-top: 100px;
+}
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+.topmargin-md{
+    margin-top: 45px;
+}
+
+.topmargin-sm{
+    margin-top: 30px;
+}
+.topmargin-xs{
+    margin-top: 15px;
+}
+
+.btn{
+    font-size: 21px;
+    padding: 15px 15px;
+    min-width: 160px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.icon{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.text-dark{
+    color: #1a1a1a;
+}
+
+.navbar{
+    background-color: transparent;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #ffffff;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
+.logo-brand{
+    min-width: 70px;
+    max-width: 90px;
+}
+
+.logo-black{
+    color: #1a1a1a !important;
+}
+
+#logo-menu{
+    color: white;
+}
+
+.logo-white{
+    color: #ffffff !important;
+}
+
+.navbar-brand ion-icon{
+    font-size: 70px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#hero{
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+    ), url("../img/img-lg3.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+#hero p{
+    color: #ffffff;
+}
+
+.content-center{
+    max-width: 1100px;
+    height: 150px;
+    margin: 0px auto 60px auto;
+    text-align: center;
+}
+
+.content-center h2{
+    margin-top: 70px;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+
+.portfolio-container img{
+    width: 700px;
+    height: 400px;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details a h2,
+.portfolio-details a p{
+    color: #ffffff;
+}
+
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details{
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span{
+    font-size: 14px;
+}
+
+.member-details ion-icon{
+    padding: 0 5px;
+}
+
+.portfolio-details h2{
+    margin-bottom: 0;
+}
+
+.card{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.card:hover{
+    -moz-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+.skills-container{
+    margin: 15px 0;
+}
+
+.skills{
+    padding: 50px 80px;
+    border-radius: 3px;
+    min-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.skills-light{
+    background-color: #ffffff;
+    border: 2px solid #1a1a1a;
+    box-shadow: 4px 4px 1px rgba(143, 187, 239, 0.48),
+    -4px -4px 1px rgba(143, 187, 239, 0.48);
+}
+
+.img-front{
+    margin-bottom: 20px;
+}
+
+.skills h3{
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.skills h5{
+    margin-top: 25px;
+    color: cornflowerblue;
+    font-size: 24px;
+}
+
+.skills > ul > li{
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.skills > ul > li:first-child{
+    margin-top: 20px;
+}
+
+.carousel{
+    min-width: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.carousel-indicators li{
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin:  0 8px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    color: #ffffff;
+    opacity: 1;
+    width: 5%;
+}
+
+.control ion-icon{
+    color: #ffffff;
+}
+
+.carousel-container{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.control-button{
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.raiting ion-icon{
+    color: #ffb944;
+    font-size: 26px;
+
+}
+
+.divider{
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.form-control{
+    font-size: 19px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.btn-black{
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 3px;
+    box-shadow: none;
+    height: 55px;
+    padding: 10px;
+}
+.btn-black:hover{
+    color: #ffffff;
+}
+
+.form-control:first-of-type{
+    margin-bottom: 28px;
+}
+
+.form-control:focus{
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: 1px 1px 1.5px #1a1a1a, -1px -1px 1.5px #1a1a1a;
+}
+
+.foot{
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+#footer{
+    height: 350px;
+}
+
+@media (max-width: 575.98px) {
+
+    h1{ font-size: 50px; line-height: normal}
+    p{ font-size: 20px;}
+
+    h1{
+        margin-top: 175px;
+    }
+
+    .btn-first{
+        background: transparent;
+        border: none !important;
+        font-size:0;
+    }
+
+    .portfolio-toto{
+        min-width: unset;
+        margin: 0 auto !important;
+    }
+
+    .portfolio-details h2{
+        font-size: 32px;
+    }
+
+    .skills-unset{
+        min-width: unset;
+        margin: 20px;
+        height: auto;
+    }
+    .skills svg{
+        margin-top: 0px !important;
+    }
+
+    .skills > h3{
+        text-align: center;
+    }
+
+    .row-card{
+        min-width: unset !important;
+        padding: 40px;
+        /*width: 100px;*/
+        /*padding: 40px;*/
+    }
+}
+
+@media (max-width: 769.98px) {
+    .content-first{
+        padding-top: 55px;
+    }
+
+    .row-port{
+        justify-content: center !important;
+        margin: auto !important;
+    }
+    .row-bott{
+        margin-top: 20px !important;
+    }
+
+    .portfolio-details a h2{
+        font-size: 28px;
+    }
+
+    .portfolio-details a p{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .row-about{
+        justify-content: center !important;
+        margin: auto !important;
+    }
+
+    .row-abo{
+        top: 50px;
+    }
+
+    .skills{
+        min-width: unset;
+        height: auto;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+    .row-about{
+        justify-content: center !important;
+        margin: auto !important;
+    }
+    .row-abo{
+        top: 50px;
+    }
+
+}
